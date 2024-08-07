@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
         val name = scanner.nextLine()
 
         if (name.isBlank()) {
+            println("누굴까요~~~~~~~~~~~")
             break
         }
         names.add(name)
