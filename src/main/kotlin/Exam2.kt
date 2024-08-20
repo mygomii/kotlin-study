@@ -8,8 +8,8 @@ fun main(args: Array<String>) {
     val numberOfStudents = scanner.nextInt()
     val scores = mutableListOf<Int>()
 
-    for (i in 0..numberOfStudents) {
-        println("${i + 1}번째 점수 입력")
+    for (i in 1..numberOfStudents) {
+        println("${i}번째 점수 입력")
         val score = scanner.nextInt()
         scores.add(score)
     }
